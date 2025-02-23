@@ -1,47 +1,23 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <header1 style="margin-bottom: 0px;"></header1>
+  <girl1 style="margin-bottom: 20px;"></girl1>
+  <Text1 style="margin-bottom: 0px;"></Text1>
+  <shopCategories style="margin-bottom: 0px;"></shopCategories>
+  <popular1 style="margin-bottom: 20px;"></popular1>
+  <read-blog style="margin-bottom: 100px;"></read-blog>
+  <youMailVue style="margin-bottom: 0px;"></youMailVue>
+  <email1 style="margin-bottom: 0px;"></email1>
+  <logo1></logo1>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+<script setup>
+import header1 from "./header-1.vue"
+import girl1 from "./girl-1.vue";
+import Text1 from "./Text-1.vue";
+import shopCategories from "./shop-categories.vue";
+import popular1 from "./popular-1.vue";
+import ReadBlog from "./Read-blog.vue";
+import youMailVue from "./you-mail.vue";
+import email1 from "./email-1.vue";
+import logo1 from "./logo-1.vue";
+</script>
